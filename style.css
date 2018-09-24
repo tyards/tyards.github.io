@@ -1,25 +1,46 @@
 body
 {
 	background-color: gray;
+	text-align: center;
 }
 
 h1
 {
 	text-align: center; 
-	background-color: blue;
+	background-color: darkblue;
+	color: darkgray;
 }
 
 h2
 {
 	text-align: center;
+	color: darkblue;
+	font-size: 30px;
 }
 
 h3
 {
-
+	text-decoration: underline;
 }
 
 p
 {
+	margin-right: 150px;
+	margin-left: 150px;
+	background: lightgray;
+}
 
+ul
+{
+	list-style-position: inside;
+}
+
+img
+{
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 16px;
 }
